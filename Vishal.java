@@ -7,7 +7,7 @@ class Demo
        System.out.println("enter the roll mark & name");
     }
 }
-class vishal extends Demo
+class Vishal extends Demo
 {
     void disp()
     {
@@ -18,7 +18,7 @@ class vishal extends Demo
     }
     public static void main(String args[])
     {
-     vishal r=new vishal();
+     Vishal r=new Vishal();
      r.input(); r.disp();
     }
 
