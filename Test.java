@@ -11,7 +11,6 @@ class A
     }
     void aad()
     {
-   
         c = a + b;
         System.out.println("addition is "+c);
     }
