@@ -40,16 +40,16 @@ class jdemo
 {
     public static void main(String args[])
     {   
-        B obj = new B();  // Create a single object of class B
-        obj.input();      // Input numbers A and B
-        obj.add();        // Perform addition
-        obj.sub();        // Perform subtraction
+        B r = new B();  // Create a single object of class B
+        r.input();      // Input numbers A and B
+        r.add();        // Perform addition
+        r.sub();        // Perform subtraction
 
         // Use the same object to access multiplication
-        C obj2 = new C(); // Create an object of class C
-        obj2.a = obj.a;   // Reuse the values of `a` and `b`
-        obj2.b = obj.b;
-        obj2.mul();
+        C r2 = new C(); // Create an object of class C
+        r2.a = r.a;   // Reuse the values of `a` and `b`
+        r2.b = r.b;
+        r2.mul();
       
     }
 }
