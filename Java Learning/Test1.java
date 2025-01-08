@@ -25,7 +25,7 @@ class B extends A
 
     B()
     {
-        int b;
+       // int b;
         // System.out.println(); //constructor
     }
     // int a = 100; //instance variable
