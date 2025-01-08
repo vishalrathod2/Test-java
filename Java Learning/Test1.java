@@ -12,7 +12,6 @@ class A
     }
     A()
     {
-        int a;
         // System.out.println(); //constructor
     }
 // {   void show()
